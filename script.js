@@ -149,7 +149,7 @@ const $$ = (sel, ctx = document) => [...ctx.querySelectorAll(sel)];
    5. COUNTDOWN TIMER
 --------------------------------------------------------------- */
 (function initCountdown() {
-  const eventDate = new Date('2026-04-15T09:00:00');
+  const eventDate = new Date('2026-04-10T10:00:00');
   const daysEl  = $('#countdown-days');
   const hoursEl = $('#countdown-hours');
   const minsEl  = $('#countdown-mins');

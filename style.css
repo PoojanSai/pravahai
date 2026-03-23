@@ -1121,17 +1121,30 @@ button { cursor: pointer; font-family: var(--font-main); border: none; backgroun
   display: flex;
   gap: 10px;
   justify-content: center;
+  align-items: center;
   margin-top: 8px;
 }
 
 .social-btn {
-  width: 40px; height: 40px;
+  width: 42px;
+  height: 42px;
   border-radius: 50%;
   background: var(--clr-surface);
   border: 1px solid var(--clr-border);
-  display: flex; align-items: center; justify-content: center;
+  line-height:0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   color: var(--clr-text-muted);
   transition: all var(--transition);
+}
+
+.social-btn svg {
+  width: 20px;
+  margin:auto;
+  height: 40px;
+  display: block; /* important */
 }
 .social-btn:hover {
   background: var(--clr-primary-dim);
